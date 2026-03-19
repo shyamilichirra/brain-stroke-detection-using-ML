@@ -59,12 +59,3 @@ The models were trained using an 80-20 split and evaluated based on accuracy and
 
 **Final Selection:** **Random Forest** was chosen as the primary model. To ensure it wasn't overfitting, we performed **K-Fold Cross-Validation (20 splits)**, which yielded a solid **95.01%** accuracy.
 
----
-
-## 🔧 Installation & Usage
-```bash
-# Clone the repository
-git clone [https://github.com/yourusername/brainstroke-prediction.git](https://github.com/yourusername/brainstroke-prediction.git)
-
-# Install dependencies
-pip install numpy pandas matplotlib seaborn scikit-learn imbalanced-learn xgboost
